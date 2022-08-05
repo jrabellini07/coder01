@@ -1,0 +1,497 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------HEADER-----*/
+/* header{
+    background-color: rgb(47, 100, 7);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 100px;
+    height: 100px;  
+}
+
+header nav ul{
+    list-style: none;   
+    display: flex;    
+}
+
+header nav ul li{
+    margin: 20px 20px 0 20px;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 2s;
+}
+
+header nav ul li a:hover{
+    color: white;
+    text-decoration: overline;
+} */
+
+
+header nav div a img{
+    width: 100px;
+    height: 100px;
+}
+
+header nav{
+    background-color: rgb(47, 151, 151);
+}
+
+header nav div ul li a{
+    font-size: 20px;
+    color: black;
+    transition: 2s;
+}
+
+header nav div ul li a:hover{
+    color: rgb(190, 118, 10);
+    text-decoration: overline;
+
+}
+/*---------MAIN---------*/
+
+/*-----INDEX-----*/
+
+.jardin{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/Sin\ título.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jardin div{
+    width: 80%;
+    
+}
+
+
+.jardin h1{
+    color: rgb(37, 23, 1);
+    font-size: 70px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.jardin p{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+
+.historia{
+    background-image: linear-gradient(to right,rgb(62, 136, 6), rgb(132, 87, 4)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia div{
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+.historia div img{
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.educacion{
+    background-image: linear-gradient(to right,rgb(132, 87, 4),rgb(62, 136, 6) );
+
+    color: rgb(37, 23, 1);
+    font-size: 70px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.educacion div p{
+    font-size: 30px;
+    text-align: left;
+}
+
+.educacion div div img{
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+
+
+
+.galeria div div{
+    width: 250px;
+    height: 350px;
+    border: 1px solid rgb(47, 100, 7);
+    margin: 20px 10px 15px 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(238, 120, 10, 0.678);
+    transition: 2s;
+    
+}
+
+.galeria div div:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+.galeria > div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.galeria{
+    background-color: rgb(47, 100, 7);
+}
+
+.galeria div div img{
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+
+.galeria div div h5{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.galeria div div a{
+    text-decoration: none;
+    background-color: rgb(195, 129, 8);
+    padding: 5px;
+    color: black; 
+    border-radius: 5px;
+    transition: 1s;   
+}
+
+.galeria div div a:hover{
+    background-color: white;
+    color: rgb(195, 129, 8) ;
+}
+
+/*----contactos----*/
+
+
+.pie{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/fondo3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie div{
+    color: rgb(37, 23, 1);
+    font-size: 50px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.referencias{
+    color: rgb(37, 23, 1);
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: left;
+    letter-spacing: 5px;
+    background-image: linear-gradient(to right, rgb(62, 136, 6), rgb(132, 87, 4));
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.referencias div{
+    border: 1px black;
+}
+
+
+.maps{
+    background-image: linear-gradient(to right,rgb(132, 87, 4),rgb(62, 136, 6) );
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.maps div{
+    text-align: end;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+/*----PROPUESTA EDUCATIVA----*/
+
+.primeraseccion{
+    background-color: rgb(195, 129, 8);
+    display: flex;
+
+}
+
+.primeraseccion h1{
+    color: rgb(37, 23, 1);
+    font-size: 70px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.primeraseccion p{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.primeraseccion div img{
+    width: 500px;
+    height: 450px;
+    flex-direction: column;   
+}
+
+.segundaseccion{
+    background-color:rgb(47, 100, 7) ;
+}
+
+.segundaseccion h2{
+    color: rgb(37, 23, 1);
+    font-size: 70px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.segundaseccion p{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.segundaseccion div img{
+    width: 500px;
+    height: 450px;
+    padding-left: 60%;
+}
+
+
+
+
+
+
+/*-------QUIEN SOMOS-----*/
+
+
+.somos{
+    background-color: rgb(195, 129, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.somos h1{
+    color: rgb(37, 23, 1);
+    font-size: 50px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: left;
+    letter-spacing: 5px;
+}
+.somos div div img{
+    width: 250px;
+    height: 350px;
+    border: 1px solid rgb(47, 100, 7);
+    margin: 20px 10px 15px 20px;
+    border-radius: 15px;
+}
+
+.somos2{
+    background-color: rgb(47, 100, 7);
+}
+
+.somos2 div img{
+    width: 500px;
+    height: 450px;
+    padding-left: 60%;
+    margin: 20px 10px 15px;
+    border-radius: 15px;
+}
+
+.somos3 div img{
+    width: 450px;
+    height: 500px;
+}
+
+
+/*------TALLERES----*/
+
+.imagenes{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-flow: 250px;
+    gap: 20px;
+    background-image: linear-gradient(to left,rgb(132, 87, 4),rgb(62, 136, 6) );
+
+}
+
+.imagenes div div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+
+/*-----FOOTER-----*/
+
+footer{
+    background-color: rgb(47, 100, 7);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+footer img{
+    width: 70px;
+    height: 70px;
+}
+footer ul{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 20px 20px 0 20px;
+
+}
+
+
+
+
+
+/*----- MEDIA QUERIES-------*/
+
+@media screen and (max-width:845px){
+    header{
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .historia{
+        flex-direction: column;
+        
+    }
+    .historia div{
+        width: 80%;
+        margin: 20px;
+        text-align: center;
+    }
+    .historia img{
+        width: 100%;
+        height: 300px;
+    }
+    .educacion{
+        flex-direction: column;
+    }
+    .educacion div{
+        width: 80%;
+        margin: 20px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:425px){
+    .jardin{
+        flex-direction: column;
+        text-align: center;
+    }
+    .jardin div{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width:709px){
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
