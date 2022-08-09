@@ -324,9 +324,22 @@ header nav div ul li a:hover{
 .segundaseccion div img{
     width: 500px;
     height: 450px;
-    padding-left: 60%;
 }
 
+.terceraseccion{
+    background-color: rgb(224, 159, 97);
+    display: flex;
+}
+
+.terceraseccion div{
+    flex-direction: column;
+    padding: 80px;
+}
+.terceraseccion p{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
 
 
 
@@ -341,7 +354,9 @@ header nav div ul li a:hover{
     flex-direction: column;
     align-items: center;
 }
-
+.somos h1:hover{
+    color: aqua;
+}
 .somos h1{
     color: rgb(37, 23, 1);
     font-size: 50px;
@@ -350,6 +365,15 @@ header nav div ul li a:hover{
     text-align: left;
     letter-spacing: 5px;
 }
+
+.somos div div:hover{
+    transform: scale(1-1);
+}
+
+.somos div div{
+
+    transition: 2s;
+}
 .somos div div img{
     width: 250px;
     height: 350px;
@@ -357,6 +381,7 @@ header nav div ul li a:hover{
     margin: 20px 10px 15px 20px;
     border-radius: 15px;
 }
+
 
 .somos2{
     background-color: rgb(47, 100, 7);
@@ -374,6 +399,9 @@ header nav div ul li a:hover{
     width: 450px;
     height: 500px;
 }
+
+
+
 
 
 /*------TALLERES----*/
